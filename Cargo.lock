@@ -1220,7 +1220,7 @@ checksum = "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0"
 [[package]]
 name = "livesplit-auto-splitting"
 version = "0.1.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f51c88380a0d63926797a8b9f13b70c6b31dedc9"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1240,7 +1240,7 @@ dependencies = [
 [[package]]
 name = "livesplit-core"
 version = "0.13.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f51c88380a0d63926797a8b9f13b70c6b31dedc9"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
 dependencies = [
  "base64-simd",
  "bytemuck",
@@ -1274,7 +1274,7 @@ dependencies = [
 [[package]]
 name = "livesplit-hotkey"
 version = "0.7.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f51c88380a0d63926797a8b9f13b70c6b31dedc9"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
 dependencies = [
  "bitflags 2.3.3",
  "cfg-if",
@@ -1309,7 +1309,7 @@ dependencies = [
 [[package]]
 name = "livesplit-title-abbreviations"
 version = "0.3.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f51c88380a0d63926797a8b9f13b70c6b31dedc9"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
 dependencies = [
  "unicase",
 ]

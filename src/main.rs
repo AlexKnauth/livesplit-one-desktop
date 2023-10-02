@@ -17,7 +17,6 @@ fn main() {
     config.setup_logging();
 
     let run = config.parse_run_or_default();
-    let auto_splitter_settings = run.auto_splitter_settings().to_string();
     let timer = Timer::new(run).unwrap().into_shared();
     config.configure_timer(&mut timer.write().unwrap());
 
@@ -25,7 +24,6 @@ fn main() {
 
     let auto_splitter = auto_splitting::Runtime::new(timer.clone());
     config.maybe_load_auto_splitter(&auto_splitter);
-    auto_splitter.set_auto_splitter_settings_blocking(auto_splitter_settings).ok();
 
     let _hotkey_system = config.create_hotkey_system(timer.clone());
 
