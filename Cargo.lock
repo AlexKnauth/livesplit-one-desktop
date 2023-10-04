@@ -1220,7 +1220,7 @@ checksum = "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0"
 [[package]]
 name = "livesplit-auto-splitting"
 version = "0.1.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings_query#af61b89307ab3c49e5aeead7fef4a56e0a1298db"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1235,12 +1235,13 @@ dependencies = [
  "wasmtime",
  "wasmtime-wasi",
  "windows-sys 0.48.0",
+ "xmltree",
 ]
 
 [[package]]
 name = "livesplit-core"
 version = "0.13.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings_query#af61b89307ab3c49e5aeead7fef4a56e0a1298db"
 dependencies = [
  "base64-simd",
  "bytemuck",
@@ -1274,7 +1275,7 @@ dependencies = [
 [[package]]
 name = "livesplit-hotkey"
 version = "0.7.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings_query#af61b89307ab3c49e5aeead7fef4a56e0a1298db"
 dependencies = [
  "bitflags 2.3.3",
  "cfg-if",
@@ -1309,7 +1310,7 @@ dependencies = [
 [[package]]
 name = "livesplit-title-abbreviations"
 version = "0.3.0"
-source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings#f08123bc3b7ee231e575f153b329ed5685bede04"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=auto_splitter_settings_query#af61b89307ab3c49e5aeead7fef4a56e0a1298db"
 dependencies = [
  "unicase",
 ]
@@ -3315,3 +3316,12 @@ name = "xml-rs"
 version = "0.8.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5a56c84a8ccd4258aed21c92f70c0f6dea75356b6892ae27c24139da456f9336"
+
+[[package]]
+name = "xmltree"
+version = "0.10.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d7d8a75eaf6557bb84a65ace8609883db44a29951042ada9b393151532e41fcb"
+dependencies = [
+ "xml-rs",
+]
