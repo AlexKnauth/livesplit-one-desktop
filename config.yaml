@@ -16,7 +16,7 @@ general:
 
   # comparison: Average Segments
 
-  # timing-method: GameTime
+  timing-method: GameTime
   # auto-splitter: C:\Projekte\celeste-auto-splitter\target\wasm32-unknown-unknown\release\celeste.wasm
   # auto-splitter: C:\Users\Christopher Serr\Downloads\celeste.wasm
   # auto-splitter: C:\Users\Christopher Serr\Downloads\script (7).wasm
