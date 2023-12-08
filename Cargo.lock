@@ -1157,7 +1157,7 @@ checksum = "da2479e8c062e40bf0066ffa0bc823de0a9368974af99c9f6df941d2c231e03f"
 [[package]]
 name = "livesplit-auto-splitting"
 version = "0.1.0"
-source = "git+https://github.com/LiveSplit/livesplit-core#5dd0b3f1fbd7db0c6e1e001833e28256de316088"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=legacy-xml-hack#62147f89e9ea3e55012d17cb8fed318a22a0ccc3"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1178,7 +1178,7 @@ dependencies = [
 [[package]]
 name = "livesplit-core"
 version = "0.13.0"
-source = "git+https://github.com/LiveSplit/livesplit-core#5dd0b3f1fbd7db0c6e1e001833e28256de316088"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=legacy-xml-hack#62147f89e9ea3e55012d17cb8fed318a22a0ccc3"
 dependencies = [
  "base64-simd",
  "bytemuck",
@@ -1212,7 +1212,7 @@ dependencies = [
 [[package]]
 name = "livesplit-hotkey"
 version = "0.7.0"
-source = "git+https://github.com/LiveSplit/livesplit-core#5dd0b3f1fbd7db0c6e1e001833e28256de316088"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=legacy-xml-hack#62147f89e9ea3e55012d17cb8fed318a22a0ccc3"
 dependencies = [
  "bitflags 2.4.1",
  "cfg-if",
@@ -1247,7 +1247,7 @@ dependencies = [
 [[package]]
 name = "livesplit-title-abbreviations"
 version = "0.3.0"
-source = "git+https://github.com/LiveSplit/livesplit-core#5dd0b3f1fbd7db0c6e1e001833e28256de316088"
+source = "git+https://github.com/AlexKnauth/livesplit-core?branch=legacy-xml-hack#62147f89e9ea3e55012d17cb8fed318a22a0ccc3"
 dependencies = [
  "unicase",
 ]
