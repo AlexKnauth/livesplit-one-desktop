@@ -12,7 +12,7 @@ backtrace = "0.3.13"
 bytemuck = { version = "1.4.1", features = ["derive"] }
 fern = "0.6.0"
 humantime = "2.1.0"
-livesplit-core = { git = "https://github.com/LiveSplit/livesplit-core", features = ["software-rendering", "font-loading", "auto-splitting"] }
+livesplit-core = { git = "https://github.com/AlexKnauth/livesplit-core", branch = "legacy-xml-hack", features = ["software-rendering", "font-loading", "auto-splitting"] }
 log = { version = "0.4.6", features = ["serde"] }
 mimalloc = { version = "0.1.27", default-features = false }
 minifb = "0.24.0"
