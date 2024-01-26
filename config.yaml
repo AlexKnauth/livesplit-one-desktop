@@ -36,10 +36,13 @@ window:
   transparency: true
   # fps: 40
 
-# hotkeys:
-#   # split: null
-#   undo_all_pauses: NumPad7
-#   toggle_timing_method: NumPad9
+hotkeys:
+  split: Digit1
+  reset: Digit3
+  undo: Digit8
+  skip: Digit2
+  undo_all_pauses: null
+  toggle_timing_method: null
 
 # connections:
   # twitch: puttheaccesstokenhere
