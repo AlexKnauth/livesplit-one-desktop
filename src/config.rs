@@ -10,7 +10,7 @@ use std::{
     fmt, fs,
     io::Cursor,
     path::{Path, PathBuf},
-    time::{Duration, SystemTime},
+    time::SystemTime,
 };
 
 #[derive(Default, Deserialize)]
@@ -191,7 +191,7 @@ impl Config {
             },
         )?;
 
-        window.limit_update_rate(Some(Duration::from_secs_f32(self.window.fps.recip())));
+        window.set_target_fps(self.window.fps.ceil() as usize);
 
         Ok(window)
     }
